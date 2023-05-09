@@ -1,0 +1,50 @@
+.greet{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+.form{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.login{
+    height: 100vh;    
+    background-color : #000000;
+    background-image : linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnClass{
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox{
+    width: 25%;
+}
+
+.credential{
+    display: flex;
+}
+
+.cred{
+    display: flex;
+    width: 50%;
+    border: 1px solid white;
+    margin: 1px;
+}
+
+input{
+    border-radius: 0% !important;
+}
+
+span{
+    border-radius: 0% !important;
+}

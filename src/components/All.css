@@ -1,0 +1,61 @@
+.box {
+  background: azure;
+  border: 1.5px solid gray;
+  font-size: larger;
+  margin: 10px;
+  border: 1px solid rgb(46, 185, 210);
+}
+
+.btn {
+  margin: 5px;
+}
+
+.heading {
+  height: 40px;
+  text-align: center;
+  color: black;
+}
+
+.card-text {
+  border: 0.5px double rgb(46, 185, 210);
+  border-width: 2px;
+  color: black;
+  height: 65px;
+  overflow: scroll;
+}
+.row {
+  justify-content: center;
+  margin-top: 2% !important;
+}
+.description:hover {
+  background-color: black;
+  color: white;
+}
+
+.main-segment {
+  margin: 3%;
+  height: fit-content;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.nav-name:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+
+.title {
+  margin-left: 20%;
+}
+
+textarea {
+  height: 45px;
+  border-radius: 0% !important;
+}
+
+.description {
+  margin: 10px;
+}

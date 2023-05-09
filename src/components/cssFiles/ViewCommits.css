@@ -1,0 +1,35 @@
+.commits{
+    border: 0.1px solid black;
+    /* border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px; */
+    background-color: black;
+    color: white;
+    margin: 1px;
+    
+}
+.localTime{
+    font-style: oblique;
+    font-size:15px;
+
+}
+.content{
+    border: 2px solid aqua;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    
+}
+
+.biggerFont{
+    font-size: larger;
+}
+
+.commitBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.viewCommit{
+border: 1px solid black;
+padding: 0 10% !important;
+}
