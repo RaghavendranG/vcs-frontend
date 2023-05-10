@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
-import './cssFiles/Login.css'
+import '../styles/cssFiles/Login.css'
 import 'animate.css';
 const LogIn = () => {
   const [userName, setUserName] = useState("");
@@ -72,7 +72,7 @@ const LogIn = () => {
           />
         </div>
         <div className="btnClass">
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-success">
           submit
         </button>
         </div>

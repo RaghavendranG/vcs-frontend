@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
 import DashBoard from "./DashBoard";
-import "./cssFiles/CreateRepository.css";
+import "../styles/cssFiles/CreateRepository.css"
 
 const CreateRepository = () => {
   const [file, setFile] = useState();

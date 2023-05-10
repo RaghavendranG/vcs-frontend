@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import swal from "sweetalert";
 import DashBoard from "./DashBoard";
-import "./cssFiles/EditFile.css";
+import "../styles/cssFiles/EditFile.css";
 function EditFile() {
   const [dataToEdit, setDataToEdit] = useState("");
   const navigate = useNavigate();

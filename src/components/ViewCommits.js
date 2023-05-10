@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import swal from "sweetalert";
-import "./cssFiles/ViewCommits.css";
+import "../styles/cssFiles/ViewCommits.css";
 const ViewCommits = () => {
   const { id } = useParams();
   const [historyArray, setHistoryArray] = useState([]);

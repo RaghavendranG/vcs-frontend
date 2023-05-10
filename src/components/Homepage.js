@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
-import "./All.css";
+import "../styles/All.css";
 import DashBoard from "./DashBoard";
 const HomePage = () => {
   const [file, setFile] = useState();
